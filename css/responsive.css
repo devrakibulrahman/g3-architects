@@ -1,0 +1,36 @@
+/* ============================== Base styles for all devices ===============================*/
+
+/* Styles for small devices */
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* Styles for tablets */
+@media (min-width: 600px) and (max-width: 768px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+/* Styles for small desktops */
+@media (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-color: lightcoral;
+  }
+}
+
+/* Styles for large desktops */
+@media (min-width: 992px) and (max-width: 1200px) {
+  body {
+    background-color: lightgoldenrodyellow;
+  }
+}
+
+/* Styles for extra large desktops */
+@media (min-width: 1200px) {
+  body {
+    background-color: lightgray;
+  }
+}
