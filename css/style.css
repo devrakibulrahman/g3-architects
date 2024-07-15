@@ -18,20 +18,31 @@
 /* ====================== universal css reset style ===================== */
 
 /* ====================== css reusable classes ===================== */
-
 .container{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
+.btn-box .btn{
+    display: inline-block;
+    padding: 20px 25px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn-box .btn:hover{
+    background-color: #ffa641;
+}
 /* ====================== css reusable classes ===================== */
 
 
 /* ============================= header start ============================ */
-
 /* ---------------------------- header section start --------------------------- */
-
 #header-section{
     width: 100%;
     height: auto;
@@ -100,19 +111,7 @@
 }
 
 .main-content .main-details .btn-box .main-btn{
-    display: inline-block;
-    padding: 20px 25px;
     margin-top: 16px;
-    background-color: #FF900E;
-    border-radius: 8px;
-    color: #FFFFFF;
-    font-size: 1.25rem;
-    font-weight: 600;
-    transition: background-color 0.2s ease-in-out;
-}
-
-.main-content .main-details .btn-box .main-btn:hover{
-    background-color: #ffa641;
 }
 
 .main-content .architect-banner{
@@ -124,14 +123,68 @@
 .main-content .architect-banner .architect-img{
     width: 100%;
 }
-
-
 /* ---------------------------- header section end --------------------------- */
-
 /* ============================= header end ============================ */
 
 /* ============================= main start ============================ */
+/* ---------------------------- our feature section start */
+#our-feature-section{
+    width: 100%;
+    height: auto;
+}
 
+.our-feature-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 73px;
+    padding: 85px 0px 40px 0px;
+}
+
+.our-feature-container .our-feature-team-img{
+    max-width: 684px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-left: 61px;
+}
+
+.our-feature-container .our-feature-team-img .ou-ft-img{
+    width: 100%;
+}
+
+.our-feature-container .our-feature-details{
+    width: 537px;
+}
+
+.our-feature-container .our-feature-details .our-feature-title{
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: #727272;
+    margin-bottom: 24px;
+}
+
+.our-feature-container .our-feature-details .our-feature-title .ou-ft-bd{
+    font-weight: 700;
+    color: #131313 ;
+}
+
+.our-feature-container .our-feature-details .our-feature-title .ou-ft-co{
+    color: #FF900E;
+}
+
+.our-feature-container .our-feature-details .our-feature-para{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(114, 114, 114);
+    margin-bottom: 16px;
+}
+
+.our-feature-container .our-feature-details .btn-box .ou-ft-btn{
+    margin-top: 16px;
+}
+/* ---------------------------- our feature section end */
 /* ============================= main end ============================ */
 
 /* ============================= footer start ============================ */
