@@ -9,9 +9,132 @@
     list-style: none;
     scroll-behavior: smooth;
     font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+}
+
+*::selection{
+    background-color: rgb(255, 145, 0);
 }
 /* ====================== universal css reset style ===================== */
 
 /* ====================== css reusable classes ===================== */
 
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 /* ====================== css reusable classes ===================== */
+
+
+/* ============================= header start ============================ */
+
+/* ---------------------------- header section start --------------------------- */
+
+#header-section{
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 144, 14, 0.1); 
+}
+
+.navbar{
+    width: 100%;
+}
+
+.navbar .nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.navbar .nav-section .brand-logo{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.navbar .nav-section .nav .nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-section .nav .nav-items .nav-list{
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-left: 60px;
+}
+
+.navbar .nav-section .nav .nav-items .nav-list .nav-link{
+    color: rgba(66, 66, 66, 1);
+}
+
+.navbar .nav-section .mobile-nav{
+    display: none;
+}
+
+.main-content{
+    width: 100%;
+    height: auto;
+}
+
+.main-content .main-details{
+    max-width: 868px;
+    margin: 102px auto 50px;
+    text-align: center;
+}
+
+.main-content .main-details .main-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 25px;
+}
+
+.main-content .main-details .main-para{
+    font-size: 1rem;
+    font-style: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.main-content .main-details .btn-box .main-btn{
+    display: inline-block;
+    padding: 20px 25px;
+    margin-top: 16px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.main-content .main-details .btn-box .main-btn:hover{
+    background-color: #ffa641;
+}
+
+.main-content .architect-banner{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 45px;
+}
+
+.main-content .architect-banner .architect-img{
+    width: 100%;
+}
+
+
+/* ---------------------------- header section end --------------------------- */
+
+/* ============================= header end ============================ */
+
+/* ============================= main start ============================ */
+
+/* ============================= main end ============================ */
+
+/* ============================= footer start ============================ */
+
+/* ============================= footer end ============================ */
+

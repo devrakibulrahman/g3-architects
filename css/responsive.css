@@ -2,35 +2,182 @@
 
 /* Styles for small devices */
 @media (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+
+    /* ============================== header ============================== */
+    /* ---------------------------- mobile nav start */
+    .navbar .nav-section .nav{
+        display: none;
+    }
+
+    .navbar .nav-section .mobile-nav{
+        display: block;
+    }
+
+    .navbar .nav-section .mobile-nav .mobile-menu{
+        font-size: 1.5rem;
+    }
+    /* ---------------------------- mobile nav end */
+    /* ---------------------------- header section start */
+    .navbar .nav-section .brand-logo{
+        font-size: 1.5rem;
+    }
+
+    .main-content .main-details .main-title{
+        font-size: 2.2rem;
+    }
+
+    .main-content .main-details .main-para{
+        font-size: 0.856rem;
+    }
+
+    .main-content .main-details .btn-box .main-btn{
+        font-size: 0.965rem;
+        padding: 15px 20px;
+    }
+    /* ---------------------------- header section end */
+    /* ============================== header ============================== */
+
 }
 
 /* Styles for tablets */
 @media (min-width: 600px) and (max-width: 768px) {
-  body {
-    background-color: lightgreen;
-  }
+
+    /* ============================== header ============================== */
+    /* ---------------------------- mobile nav start */
+    .navbar .nav-section .nav{
+        display: none;
+    }
+
+    .navbar .nav-section .mobile-nav{
+        display: block;
+    }
+
+    .navbar .nav-section .mobile-nav .mobile-menu{
+        font-size: 1.5rem;
+    }
+    /* ---------------------------- mobile nav end */
+    /* ---------------------------- header section start */
+    .navbar .nav-section .brand-logo{
+        font-size: 1.9rem;
+    }
+
+    .main-content .main-details .main-title{
+        font-size: 3.2rem;
+    }
+
+    .main-content .main-details .main-para{
+        font-size: 1rem;
+    }
+
+    .main-content .main-details .btn-box .main-btn{
+        font-size: 0.965rem;
+        padding: 20px 25px;
+    }
+    /* ---------------------------- header section end */
+    /* ============================== header ============================== */
+
 }
 
 /* Styles for small desktops */
 @media (min-width: 768px) and (max-width: 992px) {
-  body {
-    background-color: lightcoral;
-  }
+
+    /* ============================== header ============================== */
+    /* ---------------------------- mobile nav start */
+    .navbar .nav-section .nav{
+        display: none;
+    }
+
+    .navbar .nav-section .mobile-nav{
+        display: block;
+    }
+
+    .navbar .nav-section .mobile-nav .mobile-menu{
+        font-size: 1.5rem;
+    }
+    /* ---------------------------- mobile nav end */
+    /* ---------------------------- header section start */
+    .navbar .nav-section .brand-logo{
+        font-size: 2rem;
+    }
+
+    .main-content .main-details .main-title{
+        font-size: 3.5rem;
+    }
+
+    .main-content .main-details .main-para{
+        font-size: 1rem;
+    }
+
+    .main-content .main-details .btn-box .main-btn{
+        font-size: 1rem;
+        padding: 20px 25px;
+    }
+    /* ---------------------------- header section end */
+    /* ============================== header ============================== */
+
 }
 
 /* Styles for large desktops */
-@media (min-width: 992px) and (max-width: 1200px) {
-  body {
-    background-color: lightgoldenrodyellow;
-  }
+@media (min-width: 992px) and (max-width: 1266px) {
+
+    /* ====================== css reusable classes ===================== */
+    .container{
+        max-width: 992px;
+    }
+    /* ====================== css reusable classes ===================== */
+
+    /* ============================== header ============================== */
+    /* ---------------------------- header section start */
+
+    .navbar .nav-section .brand-logo{
+        font-size: 2.3rem;
+    }
+
+    .main-content .main-details .main-title{
+        font-size: 3.8rem;
+    }
+
+    .main-content .main-details .main-para{
+        font-size: 1rem;
+    }
+
+    .main-content .main-details .btn-box .main-btn{
+        font-size: 1.2rem;
+        padding: 20px 25px;
+    }
+    /* ---------------------------- header section end */
+    /* ============================== header ============================== */
+
 }
 
 /* Styles for extra large desktops */
-@media (min-width: 1200px) {
-  body {
-    background-color: lightgray;
-  }
+@media (min-width: 1268px) and (max-width: 1500px) {
+
+    /* ====================== css reusable classes ===================== */
+    .container{
+        max-width: 1200px;
+    }
+    /* ====================== css reusable classes ===================== */
+
+    /* ============================== header ============================== */
+    /* ---------------------------- header section start */
+    .navbar .nav-section .brand-logo{
+        font-size: 2.8rem;
+    }
+
+    .main-content .main-details .main-title{
+        font-size: 4rem;
+    }
+
+    .main-content .main-details .main-para{
+        font-size: 1rem;
+    }
+
+    .main-content .main-details .btn-box .main-btn{
+        font-size: 1.25rem;
+        padding: 20px 25px;
+    }
+    /* ---------------------------- header section end */
+    /* ============================== header ============================== */
+
 }
